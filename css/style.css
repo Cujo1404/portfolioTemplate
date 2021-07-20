@@ -1,0 +1,82 @@
+.homeNav {
+    height: 90vh;
+    display: inline;
+}
+
+.homeBody a, .homeNav a{
+    text-decoration: none;
+}
+
+.workNav {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: #6DD47E;
+    background-color: #293250;
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.workTitle, .aboutTitle, .contactTitle {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.aboutNav {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: #293250;
+    background-color: #FDD55A;
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  cursor: pointer;
+}
+
+.contactNav {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: #293250;
+    background-color: #6DD47E;
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -300px;
+  margin-left: 55%;
+  cursor: pointer;
+  
+}
+
+.workNav:hover, .aboutNav:hover, .contactNav:hover {
+    width: 350px;
+    height: 350px;
+    transition: width .2s, height .2s;
+}
+
+.homeLink {
+    cursor: pointer;
+}
+
+.aboutBody {
+    background-color: #FDD55A;
+}
+
+.workBody {
+    background-color: #293250;
+}
+
+.contactBody {
+    background-color: #6DD47E;
+}
